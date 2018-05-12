@@ -16,6 +16,7 @@ echo "10 - Composer"
 echo "11 - Android Studio"
 echo "12 - WPS Office 64"
 echo "13 - Extras (Video Codecs, Etc...)"
+echo "14 - VLC Player"
 echo ""
 read -p  "Please enter with an option number: " option
 echo ""
@@ -33,5 +34,6 @@ case $option in
 11) sudo bash install/android-studio.sh ;;
 12) sudo bash install/wps-office.sh ;;
 13) sudo bash install/extras.sh ;;
+14) sudo bash install/vlc.sh ;;
 esac
 sudo bash install.sh
