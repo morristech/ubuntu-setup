@@ -18,6 +18,7 @@ echo "12 - Android Studio"
 echo "13 - WPS Office 64"
 echo "14 - Extras (Video Codecs, Etc...)"
 echo "15 - VLC Player"
+echo "16 - Chromium Browser (Like Google Chrome)"
 echo ""
 read -p  "Please enter with an option number: " option
 echo ""
@@ -37,5 +38,6 @@ case $option in
 13) sudo bash install/wps-office.sh ;;
 14) sudo bash install/extras.sh ;;
 15) sudo bash install/vlc.sh ;;
+16) sudo bash install/chromium-browser.sh ;;
 esac
 sudo bash install.sh
