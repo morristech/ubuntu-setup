@@ -19,6 +19,7 @@ echo "13 - WPS Office 64"
 echo "14 - Extras (Video Codecs, Etc...)"
 echo "15 - VLC Player"
 echo "16 - Chromium Browser (Like Google Chrome)"
+echo "17 - Visual Studio Code"
 echo ""
 read -p  "Please enter with an option number: " option
 echo ""
@@ -39,5 +40,6 @@ case $option in
 14) sudo bash install/extras.sh ;;
 15) sudo bash install/vlc.sh ;;
 16) sudo bash install/chromium-browser.sh ;;
+17) sudo bash install/vs-code.sh ;;
 esac
 sudo bash install.sh
