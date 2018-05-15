@@ -21,6 +21,7 @@ A bash-script collection to install programs easily on Ubuntu.
 - VLC Media Player
 - Chromium Browser (Like Google Chrome)
 - Visual Studio Code
+- TeamViewer
 
 ## How to use
 

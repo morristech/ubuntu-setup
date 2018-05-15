@@ -20,6 +20,7 @@ echo "14 - Extras (Video Codecs, Etc...)"
 echo "15 - VLC Player"
 echo "16 - Chromium Browser (Like Google Chrome)"
 echo "17 - Visual Studio Code"
+echo "18 - TeamViewer"
 echo ""
 read -p  "Please enter with an option number: " option
 echo ""
@@ -41,5 +42,6 @@ case $option in
 15) sudo bash install/vlc.sh ;;
 16) sudo bash install/chromium-browser.sh ;;
 17) sudo bash install/vs-code.sh ;;
+18) sudo bash install/teamviewer.sh ;;
 esac
 sudo bash install.sh
