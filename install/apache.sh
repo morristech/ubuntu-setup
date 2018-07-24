@@ -1,6 +1,5 @@
 #!/bin/bash
 sudo apt-get install apache2
-sudo apt-get install libapache2-mod-php
 sudo a2enmod rewrite
 sudo a2enmod headers
 sudo systemctl restart apache2

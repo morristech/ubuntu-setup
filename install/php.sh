@@ -1,8 +1,17 @@
 #!/bin/bash
-sudo apt-get install php
-sudo apt-get install php-mcrypt
-sudo apt-get install php-mysql
-sudo apt-get install php-mbstring
-sudo apt-get install php-pdo-sqlite
-sudo apt-get install php-curl
-sudo apt-get install php-xdebug
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
+sudo apt-get install php7.0
+sudo apt-get install php7.0-common
+sudo apt-get install php7.0-gd
+sudo apt-get install php7.0-json
+sudo apt-get install php7.0-cli
+sudo apt-get install php7.0-mcrypt
+sudo apt-get install php7.0-mysql
+sudo apt-get install php7.0-mbstring
+sudo apt-get install php7.0-pdo-sqlite
+sudo apt-get install php7.0-curl
+sudo apt-get install php7.0-xdebug
+sudo apt-get install libapache2-mod-php7.0
+sudo a2enmod php7.0
+sudo systemctl restart apache2
